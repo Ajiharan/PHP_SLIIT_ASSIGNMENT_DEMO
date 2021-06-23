@@ -13,7 +13,7 @@
 <table style="background-color:white" width="100%" height="57">
   <tbody>
     <tr>
-      <td width="1000px" style="text-align: left;"><a href="home.html"><img src="image/logo/applelogo.png"></a></td>
+      <td width="1000px" style="text-align: left;"><a href="home.php"><img src="image/logo/applelogo.png"></a></td>
 		<td width="125" style="text-align: center; font-style: normal; font-size: 18px; color: black;">MY ACCOUNT</td>
 		<td width="75" style="text-align: center; font-style: normal; font-size: 18px; color: black;">LOGIN</td>
 		<td width="75"><img src="image/logo/cart.png" width="50%" ></td>
@@ -30,22 +30,22 @@
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
-    <a href="iphone.html">iPhone</a>
-      <a href="ipad.html">iPad</a>
-      <a href="mac.html">Mac</a>
-		<a href="iwatch.html">iWatch</a>
+    <a href="iphone.php">iPhone</a>
+      <a href="ipad.php">iPad</a>
+      <a href="mac.php">Mac</a>
+		<a href="iwatch.php">iWatch</a>
     </div>
   </div>
-  <a href="About Us.html">About Us</a>
-  <a href="Contact Us.html">Contact Us</a>
+  <a href="About Us.php">About Us</a>
+  <a href="Contact Us.php">Contact Us</a>
   <div class="dropdown">
     <button class="dropbtn">More
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
-      <a href="FAQ.html">FAQ</a>
-      <a href="Terms and Conditions.html">Terms & Conditions</a>
-      <a href="Privacy Policy.html">Privacy Policy</a>
+      <a href="FAQ.php">FAQ</a>
+      <a href="Terms and Conditions.php">Terms & Conditions</a>
+      <a href="Privacy Policy.php">Privacy Policy</a>
     </div>
   </div>
   
@@ -104,20 +104,20 @@
   <div class="col">
     <h2>Shop By Product</h2>
     <ul>
-       <li><a href="iphone.html">iPhone</a></li>
-      <li><a href="ipad.html">iPad</a></li>
-      <li><a href="mac.html">Mac</a></li>
-      <li><a href="iwatch.html">iWatch</a></li>
+       <li><a href="iphone.php">iPhone</a></li>
+      <li><a href="ipad.php">iPad</a></li>
+      <li><a href="mac.php">Mac</a></li>
+      <li><a href="iwatch.php">iWatch</a></li>
     </ul>
   </div>
   <div class="col">
     <h2>More</h2>
     <ul>
-		<li><a href="About Us.html">About Us</a></li>
-      	<li><a href="Contact Us.html">Contact Us</a></li>
-		<li><a href="FAQ.html">FAQ</a></li>
-		<li><a href="Terms and Conditions.html">Terms & Conditions</a></li>
-		<li><a href="Privacy Policy.html"> Privacy Policy</a></li>
+		<li><a href="About Us.php">About Us</a></li>
+      	<li><a href="Contact Us.php">Contact Us</a></li>
+		<li><a href="FAQ.php">FAQ</a></li>
+		<li><a href="Terms and Conditions.php">Terms & Conditions</a></li>
+		<li><a href="Privacy Policy.php"> Privacy Policy</a></li>
     </ul>
   </div>
   <div class="col">

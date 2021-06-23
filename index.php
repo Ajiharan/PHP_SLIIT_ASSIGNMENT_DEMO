@@ -14,7 +14,7 @@ if(isset($_SESSION['uid'])){
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<link href="./style.css?v=<?php echo time(); ?>" rel="stylesheet" type="text/css"/>
 	<link rel="icon" href="image/logo/download.png" type="image/gif" sizes="16x16">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+	
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
    
 </head>
@@ -117,7 +117,7 @@ if(isset($_SESSION['uid'])){
 				 document.querySelector("#frm2").reset();
 				 if(d==200){
 				   $("#log_error1").text("");     
-					//window.location.replace("./index.php");
+				   window.location.replace("./home.php");
 					alert('successfully Login');
 				 }else{
 				 $("#log_error1").text("Invalid login");

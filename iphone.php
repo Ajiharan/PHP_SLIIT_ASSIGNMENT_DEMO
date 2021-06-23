@@ -4,23 +4,16 @@
 	
   <link rel="stylesheet" type="text/css" href="index.css.css">
   <link rel="icon" href="image/logo/download.png" type="image/gif" sizes="16x16">
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <meta charset="utf-8">
 <title>iPhone</title>
 </head>
 <body>
 	
-<table style="background-color:white" width="100%" height="57">
-  <tbody>
-    <tr>
-      <td width="1000px" style="text-align: left;"><a href="home.html"><img src="image/logo/iphonelogo.png"></a></td>
-		<td width="125" style="text-align: center; font-style: normal; font-size: 18px; color: black;">MY ACCOUNT</td>
-		<td width="75" style="text-align: center; font-style: normal; font-size: 18px; color: black;">LOGIN</td>
-		<td width="75"><img src="image/logo/cart.png" width="50%" ></td>
-    </tr>
-  </tbody>
-</table>
 	
+<?php 
+     include('./header/Header.php')
+    ?>
 
 		
 	
@@ -30,22 +23,22 @@
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
-      <a href="iphone.html">iPhone</a>
-      <a href="ipad.html">iPad</a>
-      <a href="mac.html">Mac </a>
-		<a href="iwatch.html">iWatch</a>
+      <a href="iphone.php">iPhone</a>
+      <a href="ipad.php">iPad</a>
+      <a href="mac.php">Mac </a>
+		<a href="iwatch.php">iWatch</a>
     </div>
   </div>
-  <a href="About Us.html">About Us</a>
-  <a href="Contact Us.html">Contact Us</a>
+  <a href="About Us.php">About Us</a>
+  <a href="Contact Us.php">Contact Us</a>
   <div class="dropdown">
     <button class="dropbtn">More
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
-      <a href="FAQ.html">FAQ</a>
-      <a href="Terms and Conditions.html">Terms & Conditions</a>
-      <a href="Privacy Policy.html">Privacy Policy</a>
+      <a href="FAQ.php">FAQ</a>
+      <a href="Terms and Conditions.php">Terms & Conditions</a>
+      <a href="Privacy Policy.php">Privacy Policy</a>
     </div>
   </div>
   
@@ -58,34 +51,34 @@
     <div class="row">
       <div class="column">
         <div class="card">
-          <img src="image/iphone/promaxgraphite.png" alt="ring" style="width:100%">
-          <h1>iPhone12 ProMax</h1>
+          <img id='img-1' src="https://firebasestorage.googleapis.com/v0/b/ctse-assignment-250c4.appspot.com/o/iphone%2F12miniblack.png?alt=media&token=5084bcda-9665-4c2d-bd0d-ea539d9ec1f4" alt="ring" style="width:100%">
+          <h1 id='name-1'>iPhone12 ProMax</h1>
           <h2>Graphite 256GB</h2>
-          <p class="price">$1199.00</p>
-          <p><button>Add to Cart</button></p>
+          <p id='pr-1' class="price">$1199.00</p>
+          <p><button onclick="addCart(1)">Add to Cart</button></p>
         </div>
       </div>
       <div class="column">
         <div class="card">
-          <img src="image/iphone/promaxsilver.png" alt="ring" style="width:100%">
-          <h1>iPhone12 ProMax</h1>
+          <img id='img-2' src="https://firebasestorage.googleapis.com/v0/b/ctse-assignment-250c4.appspot.com/o/iphone%2F12miniblue.png?alt=media&token=358135e1-e582-4d8e-8cbf-c4f2306bf67f" alt="ring" style="width:100%">
+          <h1 id='name-2'>iPhone12 ProMax</h1>
           <h2>Silver 256GB</h2>
-          <p class="price">$1199.00</p>
-          <p><button>Add to Cart</button></p>
+          <p id='pr-2' class="price">$1199.00</p>
+          <p><button onclick="addCart(2)">Add to Cart</button></p>
         </div>
       </div>
       <div class="column">
         <div class="card">
-          <img src="image/iphone/promaxgold.png" alt="ring" style="width:100%">
-          <h1>iPhone12 ProMax</h1>
+          <img id='img-3' src="https://firebasestorage.googleapis.com/v0/b/ctse-assignment-250c4.appspot.com/o/iphone%2F12minigreen.png?alt=media&token=0e59714f-9bfd-4813-b89b-e036481373f0" alt="ring" style="width:100%">
+          <h1 id='name-3'>iPhone12 ProMax</h1>
           <h2>Gold 256GB</h2>
-          <p class="price">$1199.00</p>
-          <p><button>Add to Cart</button></p>
+          <p id='pr-3' class="price">$1199.00</p>
+          <p><button onclick="addCart(3)">Add to Cart</button></p>
         </div>
       </div>
       <div class="column">
         <div class="card">
-          <img src="image/iphone/promaxblue.png" alt="ring" style="width:100%">
+          <img src="https://firebasestorage.googleapis.com/v0/b/ctse-assignment-250c4.appspot.com/o/iphone%2F12minipurple.png?alt=media&token=ab6227a6-0b55-48c6-bac7-655fe59dc549" alt="ring" style="width:100%">
           <h1>iPhone12 ProMax</h1>
           <h2>Blue 256GB</h2>
           <p class="price">$1199.00</p>
@@ -94,7 +87,7 @@
       </div>
       <div class="column">
         <div class="card">
-          <img src="image/iphone/prographite.png" alt="ring" style="width:100%">
+          <img src="https://firebasestorage.googleapis.com/v0/b/ctse-assignment-250c4.appspot.com/o/iphone%2F12minired.png?alt=media&token=be528be2-8490-441e-b49c-3b32b341440f" alt="ring" style="width:100%">
           <h1>iPhone 12 Pro</h1>
           <h2>Graphite 128GB</h2>
           <p class="price">$999.00</p>
@@ -104,7 +97,7 @@
     </div>
     <div class="column">
         <div class="card">
-          <img src="image/iphone/prosilver.png" alt="ring" style="width:100%">
+          <img src="https://firebasestorage.googleapis.com/v0/b/ctse-assignment-250c4.appspot.com/o/iphone%2F12miniwhite.png?alt=media&token=49f6216c-aba0-4830-935b-b7c8a0662ebc" alt="ring" style="width:100%">
           <h1>iPhone 12 Pro</h1>
           <h2>Silver 128GB</h2>
           <p class="price">$999.00</p>
@@ -113,7 +106,7 @@
       </div>
       <div class="column">
         <div class="card">
-          <img src="image/iphone/progold.png" alt="ring" style="width:100%">
+          <img src="https://firebasestorage.googleapis.com/v0/b/ctse-assignment-250c4.appspot.com/o/iphone%2F12minired.png?alt=media&token=be528be2-8490-441e-b49c-3b32b341440f" alt="ring" style="width:100%">
           <h1>iPhone 12 Pro</h1>
           <h2>Gold 128GB</h2>
           <p class="price">$999.00</p>
@@ -122,7 +115,7 @@
       </div>
       <div class="column">
         <div class="card">
-          <img src="image/iphone/problue.png" alt="ring" style="width:100%">
+          <img src="https://firebasestorage.googleapis.com/v0/b/ctse-assignment-250c4.appspot.com/o/iphone%2F12blue.png?alt=media&token=37153890-ee22-4b1e-bf7f-c16eca1950a2" alt="ring" style="width:100%">
           <h1>iPhone 12 Pro</h1>
           <h2>Blue 128GB</h2>
           <p class="price">$999.00</p>
@@ -131,7 +124,7 @@
       </div>
       <div class="column">
         <div class="card">
-          <img src="image/iphone/12white.png" alt="ring" style="width:100%">
+          <img src="https://firebasestorage.googleapis.com/v0/b/ctse-assignment-250c4.appspot.com/o/iphone%2F12miniwhite.png?alt=media&token=49f6216c-aba0-4830-935b-b7c8a0662ebc" alt="ring" style="width:100%">
           <h1>iPhone 12 new</h1>
           <h2>White 128GB</h2>
           <p class="price">$879.00</p>
@@ -140,7 +133,7 @@
       </div>
       <div class="column">
         <div class="card">
-          <img src="image/iphone/12black.png" alt="ring" style="width:100%">
+          <img src="https://firebasestorage.googleapis.com/v0/b/ctse-assignment-250c4.appspot.com/o/iphone%2F12black.png?alt=media&token=1252c50a-2634-4f56-b657-4725bfcb097a" alt="ring" style="width:100%">
           <h1>iPhone 12 new</h1>
           <h2>Black 128GB</h2>
           <p class="price">$879.00</p>
@@ -149,7 +142,7 @@
       </div>
       <div class="column">
         <div class="card">
-          <img src="image/iphone/12blue.png" alt="ring" style="width:100%">
+          <img src="https://firebasestorage.googleapis.com/v0/b/ctse-assignment-250c4.appspot.com/o/iphone%2F12blue.png?alt=media&token=37153890-ee22-4b1e-bf7f-c16eca1950a2" alt="ring" style="width:100%">
           <h1>iPhone 12 new</h1>
           <h2>blue 128GB</h2>
           <p class="price">$879.00</p>
@@ -158,7 +151,7 @@
       </div>
       <div class="column">
         <div class="card">
-          <img src="image/iphone/12green.png" alt="ring" style="width:100%">
+          <img src="https://firebasestorage.googleapis.com/v0/b/ctse-assignment-250c4.appspot.com/o/iphone%2F12green.png?alt=media&token=13d57363-2ee6-4e24-b7ba-7d974623aaf0" alt="ring" style="width:100%">
           <h1>iPhone 12 new</h1>
           <h2>Green 128GB</h2>
           <p class="price">$879.00</p>
@@ -167,7 +160,7 @@
       </div>
       <div class="column">
         <div class="card">
-          <img src="image/iphone/12purple.png" alt="ring" style="width:100%">
+          <img src="https://firebasestorage.googleapis.com/v0/b/ctse-assignment-250c4.appspot.com/o/iphone%2F12purple.png?alt=media&token=b767797b-28f6-4909-a5c9-c451bd73eb81" alt="ring" style="width:100%">
           <h1>iPhone 12 new</h1>
           <h2>Purple 128GB</h2>
           <p class="price">$879.00</p>
@@ -176,7 +169,7 @@
       </div>
       <div class="column">
         <div class="card">
-          <img src="image/iphone/12red.png" alt="ring" style="width:100%">
+          <img src="https://firebasestorage.googleapis.com/v0/b/ctse-assignment-250c4.appspot.com/o/iphone%2F12minired.png?alt=media&token=be528be2-8490-441e-b49c-3b32b341440f" alt="ring" style="width:100%">
           <h1>iPhone 12 new</h1>
           <h2>Red 128GB</h2>
           <p class="price">$879.00</p>
@@ -185,7 +178,7 @@
       </div>
       <div class="column">
         <div class="card">
-          <img src="image/iphone/12miniwhite.png" alt="ring" style="width:100%">
+          <img src="https://firebasestorage.googleapis.com/v0/b/ctse-assignment-250c4.appspot.com/o/iphone%2Fproblue.png?alt=media&token=d1af1583-6165-4fa5-9e2e-f1f3aa03fbcf" alt="ring" style="width:100%">
           <h1>iPhone 12 mini</h1>
           <h2>White 64GB</h2>
           <p class="price">$729.00</p>
@@ -195,7 +188,7 @@
     <div class="row">
       <div class="column">
         <div class="card">
-          <img src="image/iphone/12miniblack.png" alt="ring" style="width:100%">
+          <img src="https://firebasestorage.googleapis.com/v0/b/ctse-assignment-250c4.appspot.com/o/iphone%2Fproblue.png?alt=media&token=d1af1583-6165-4fa5-9e2e-f1f3aa03fbcf" alt="ring" style="width:100%">
           <h1>iPhone 12 mini</h1>
           <h2>Black 64GB</h2>
           <p class="price">$729.00</p>
@@ -204,7 +197,7 @@
       </div>
       <div class="column">
         <div class="card">
-          <img src="image/iphone/12miniblue.png" alt="ring" style="width:100%">
+          <img src="https://firebasestorage.googleapis.com/v0/b/ctse-assignment-250c4.appspot.com/o/iphone%2Fpromaxblue.png?alt=media&token=b73fc478-7729-4a34-9cd4-727e653e78bb" alt="ring" style="width:100%">
           <h1>iPhone 12 mini</h1>
           <h2>Blue 64GB</h2>
           <p class="price">$729.00</p>
@@ -213,7 +206,7 @@
       </div>
       <div class="column">
         <div class="card">
-          <img src="image/iphone/12minigreen.png" alt="ring" style="width:100%">
+          <img src="https://firebasestorage.googleapis.com/v0/b/ctse-assignment-250c4.appspot.com/o/iphone%2F12minigreen.png?alt=media&token=0e59714f-9bfd-4813-b89b-e036481373f0" alt="ring" style="width:100%">
           <h1>iPhone 12 mini</h1>
           <h2>Green 64GB</h2>
           <p class="price">$729.00</p>
@@ -222,7 +215,7 @@
       </div>
       <div class="column">
         <div class="card">
-          <img src="image/iphone/12minipurple.png" alt="ring" style="width:100%">
+          <img src="https://firebasestorage.googleapis.com/v0/b/ctse-assignment-250c4.appspot.com/o/iphone%2F12minipurple.png?alt=media&token=ab6227a6-0b55-48c6-bac7-655fe59dc549" alt="ring" style="width:100%">
           <h1>iPhone 12 mini</h1>
           <h2>Purple 64GB</h2>
           <p class="price">$729.00</p>
@@ -231,18 +224,15 @@
       </div>
       <div class="column">
         <div class="card">
-          <img src="image/iphone/12minired.png" alt="ring" style="width:100%">
-          <h1>iPhone 12 mini</h1>
+          <img id='img-5' src="https://firebasestorage.googleapis.com/v0/b/ctse-assignment-250c4.appspot.com/o/iphone%2F12minired.png?alt=media&token=be528be2-8490-441e-b49c-3b32b341440f" alt="ring" style="width:100%">
+          <h1 id='name-5'>iPhone 12 mini</h1>
           <h2>Red 64GB</h2>
-          <p class="price">$729.00</p>
-          <p><button>Add to Cart</button></p>
+          <p class="price" id='pr-5'>$729.00</p>
+          <p><button onclick="addCart(5)">Add to Cart</button></p>
         </div>
       </div>
     </div>
   </div>
-
-
-	
 	
 	</p>
 	
@@ -250,7 +240,29 @@
   <br><br>
   
   
-  
+  <script>
+    function addCart(id){
+      const name=document.querySelector('#name-'+id).firstChild.nodeValue;
+      const imageUrl= document.querySelector('#img-'+id).src;
+      const price=document.querySelector('#pr-'+id).firstChild.nodeValue;
+      console.log(price.substring(1));
+      $.ajax({
+			   url:"./server/Cart.php",
+			   type:"post",
+			   data:{imageUrl:imageUrl,name:name,price:price.substring(1)},
+			   success:function(d){
+				
+				 if(d==200){		     		  
+					alert('successfully added');
+				 }else{
+					alert('error');
+				  
+				 }
+				
+			   }
+			 });
+    }
+  </script>
   
   
   <!-- FOOTER START -->
@@ -259,20 +271,20 @@
   <div class="col">
     <h2>Shop By Product</h2>
     <ul>
-      <li><a href="iphone.html">iPhone</a></li>
-      <li><a href="ipad.html">iPad</a></li>
-      <li><a href="mac.html">Mac</a></li>
-      <li><a href="iwatch.html">iWatch</a></li>
+      <li><a href="iphone.php">iPhone</a></li>
+      <li><a href="ipad.php">iPad</a></li>
+      <li><a href="mac.php">Mac</a></li>
+      <li><a href="iwatch.php">iWatch</a></li>
     </ul>
   </div>
   <div class="col">
     <h2>More</h2>
     <ul>
-      <li><a href="About Us.html">About Us</a></li>
-     	<li><a href="Contact Us.html">Contact Us</a></li>
-		<li><a href="FAQ.html">FAQ</a></li>
-		<li><a href="Terms and Conditions.html">Terms & Conditions</a></li>
-		<li><a href="Privacy Policy.html"> Privacy Policy</a></li>
+      <li><a href="AboutUs.php">About Us</a></li>
+     	<li><a href="ContactUs.php">Contact Us</a></li>
+		<li><a href="FAQ.php">FAQ</a></li>
+		<li><a href="TAC.php">Terms & Conditions</a></li>
+		<li><a href="PrivacyPolicy.php"> Privacy Policy</a></li>
     </ul>
   </div>
   <div class="col">
