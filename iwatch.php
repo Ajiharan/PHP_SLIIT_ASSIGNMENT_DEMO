@@ -261,11 +261,11 @@
   <div class="col">
     <h2>More</h2>
     <ul>
-      <li><a href="About Us.php">About Us</a></li>
-     	<li><a href="Contact Us.php">Contact Us</a></li>
+      <li><a href="AboutUs.php">About Us</a></li>
+     	<li><a href="ContactUs.php">Contact Us</a></li>
 		<li><a href="FAQ.php">FAQ</a></li>
-		<li><a href="Terms and Conditions.php">Terms & Conditions</a></li>
-		<li><a href="Privacy Policy.php"> Privacy Policy</a></li>
+		<li><a href="TAC.php">Terms & Conditions</a></li>
+		<li><a href="PrivacyPolicy.php"> Privacy Policy</a></li>
     </ul>
   </div>
   <div class="col">
@@ -280,7 +280,6 @@
   </div>
 	<div class="clearfix"></div>
 </div>
-
 <!-- END OF FOOTER -->
 	
 </body>

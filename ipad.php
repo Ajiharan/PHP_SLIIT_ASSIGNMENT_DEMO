@@ -52,8 +52,8 @@
         <div class="card">
           <img id='img-21' src="https://firebasestorage.googleapis.com/v0/b/ctse-assignment-250c4.appspot.com/o/ipad%2F12.9progray1t.png?alt=media&token=b6251599-f43a-4872-9858-05a783a711a6" alt="ring" style="width:100%">
           <h1 id='name-21'>iPad Pro 12.9inch</h1>
-          <h2 id='pr-21'>Graphite 2TB</h2>
-          <p class="price">$2199.00</p>
+          <h2 >Graphite 2TB</h2>
+          <p class="price" id='pr-21'>$2199.00</p>
           <p><button onclick="addCart(21)">Add to Cart</button></p>
         </div>
       </div>
@@ -217,11 +217,11 @@
   <div class="col">
     <h2>More</h2>
     <ul>
-      <li><a href="About Us.php">About Us</a></li>
-     	<li><a href="Contact Us.php">Contact Us</a></li>
+      <li><a href="AboutUs.php">About Us</a></li>
+     	<li><a href="ContactUs.php">Contact Us</a></li>
 		<li><a href="FAQ.php">FAQ</a></li>
-		<li><a href="Terms and Conditions.php">Terms & Conditions</a></li>
-		<li><a href="Privacy Policy.php"> Privacy Policy</a></li>
+		<li><a href="TAC.php">Terms & Conditions</a></li>
+		<li><a href="PrivacyPolicy.php"> Privacy Policy</a></li>
     </ul>
   </div>
   <div class="col">
@@ -236,7 +236,6 @@
   </div>
 	<div class="clearfix"></div>
 </div>
-
 <!-- END OF FOOTER -->
 	
 </body>
