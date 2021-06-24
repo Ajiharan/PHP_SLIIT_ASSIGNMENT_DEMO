@@ -50,11 +50,11 @@
     <div class="row">
       <div class="column">
         <div class="card">
-          <img src="https://firebasestorage.googleapis.com/v0/b/ctse-assignment-250c4.appspot.com/o/ipad%2F12.9progray1t.png?alt=media&token=b6251599-f43a-4872-9858-05a783a711a6" alt="ring" style="width:100%">
-          <h1>iPad Pro 12.9inch</h1>
-          <h2>Graphite 2TB</h2>
+          <img id='img-21' src="https://firebasestorage.googleapis.com/v0/b/ctse-assignment-250c4.appspot.com/o/ipad%2F12.9progray1t.png?alt=media&token=b6251599-f43a-4872-9858-05a783a711a6" alt="ring" style="width:100%">
+          <h1 id='name-21'>iPad Pro 12.9inch</h1>
+          <h2 id='pr-21'>Graphite 2TB</h2>
           <p class="price">$2199.00</p>
-          <p><button>Add to Cart</button></p>
+          <p><button onclick="addCart(21)">Add to Cart</button></p>
         </div>
       </div>
       <div class="column">

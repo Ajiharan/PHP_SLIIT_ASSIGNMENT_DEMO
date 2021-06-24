@@ -51,11 +51,11 @@
     <div class="row">
       <div class="column">
         <div class="card">
-          <img src="https://firebasestorage.googleapis.com/v0/b/ctse-assignment-250c4.appspot.com/o/iwatch%2F6orange.png?alt=media&token=b2048a3f-d661-46cc-94fa-48272d29bc75" alt="ring" style="width:100%">
-          <h1>Apple Watch Series 6</h1>
+          <img id='img-40' src="https://firebasestorage.googleapis.com/v0/b/ctse-assignment-250c4.appspot.com/o/iwatch%2F6orange.png?alt=media&token=b2048a3f-d661-46cc-94fa-48272d29bc75" alt="ring" style="width:100%">
+          <h1 id='name-40'>Apple Watch Series 6</h1>
           <h2>Electric Orange</h2>
-          <p class="price">$449.00</p>
-          <p><button>Add to Cart</button></p>
+          <p class="price" id='pr-40'>$449.00</p>
+          <p><button onclick="addCart(40)">Add to Cart</button></p>
         </div>
       </div>
       <div class="column">

@@ -12,12 +12,13 @@ try{
     $price=floatval($_POST['price']);
     $uid=$_SESSION['uid']; 
   
-        $sql="insert into cart(uid,url,name,price) values(?,?,?,?)";
-        $res=$con->prepare($sql);
-        $res->execute([$uid,$imageUrl,$name,$price]);        
-        echo 200;     
-    
+    $sql="insert into cart(uid,url,name,price) values(?,?,?,?)";
+    $res=$con->prepare($sql);
+    $res->execute([$uid,$imageUrl,$name,$price]);      
+     
+    echo 200;
 
+    
 }catch(Exception $e){
     echo "Error".$e->getMessage();
 }

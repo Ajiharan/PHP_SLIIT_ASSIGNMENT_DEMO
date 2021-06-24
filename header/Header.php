@@ -43,9 +43,11 @@ session_start();
             <a  href="../WAD/server/logout.php" >Logout</a><?php }?>
           </td>
           <td width="75">
-            <a href="index.php"
-              ><img src="image/logo/cart.png" width="50%"
-            /></a>
+            <a href="CartPage.php" 
+              ><img src="image/logo/cart.png" width="50%" class='cart_image'
+            /><span id='countValue'></span></a>
+            
+           
           </td>
         </tr>
       </tbody>
@@ -59,5 +61,39 @@ session_start();
 
  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<script>
+    function addCart(id){
+      const name=document.querySelector('#name-'+id).firstChild.nodeValue;
+      const imageUrl= document.querySelector('#img-'+id).src;
+      const price=document.querySelector('#pr-'+id).firstChild.nodeValue;
+     
+      $.ajax({
+			   url:"./server/Cart.php",
+			   type:"post",
+			   data:{imageUrl:imageUrl,name:name,price:price.substring(1)},
+			   success:function(d){			    		  
+				//	alert(d);		
+          getCount(); 		
+			   }
+			 });
+    }
+  </script>
+
+<script>
+           
+              function getCount(){
+                $.ajax({
+                  url:"./server/CartCount.php",
+                  type:"GET",
+                  dataType: "html",  
+                  success:function(d){		
+                   		  
+                    $('#countValue').html(d);
+                  }
+                });
+              }
+            </script>
+            <script> getCount(); 	</script>
+             
 </body>
 </html>

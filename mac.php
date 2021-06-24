@@ -51,11 +51,11 @@
     <div class="row">
       <div class="column">
         <div class="card">
-          <img src="https://firebasestorage.googleapis.com/v0/b/ctse-assignment-250c4.appspot.com/o/mac%2Fmacblue.png?alt=media&token=826cb088-6053-48fe-96da-426f32f0527f" alt="ring" style="width:100%">
-          <h1>iMac 24-inch M1-Chip</h1>
+          <img id='img-70' src="https://firebasestorage.googleapis.com/v0/b/ctse-assignment-250c4.appspot.com/o/mac%2Fmacblue.png?alt=media&token=826cb088-6053-48fe-96da-426f32f0527f" alt="ring" style="width:100%">
+          <h1 id='name-70'>iMac 24-inch M1-Chip</h1>
           <h2>Blue SSD-2TB</h2>
-          <p class="price">$2299.00</p>
-          <p><button>Add to Cart</button></p>
+          <p class="price" id='pr-70'>$2299.00</p>
+          <p><button onclick="addCart(70)">Add to Cart</button></p>
         </div>
       </div>
       <div class="column">

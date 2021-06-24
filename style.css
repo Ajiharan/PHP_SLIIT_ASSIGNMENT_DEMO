@@ -3,6 +3,9 @@ body {
   margin: 0;
   line-height: 1.5;
 }
+a {
+  text-decoration: none;
+}
 
 * {
   box-sizing: border-box;
@@ -201,4 +204,29 @@ body {
 .error {
   color: red !important;
   font-weight: bold;
+}
+
+.cart_image {
+  position: relative;
+}
+
+#countValue {
+  position: absolute;
+  padding-left: 8px;
+  padding-top: 5px;
+  background-color: rgb(240, 96, 60);
+  border-radius: 50px;
+  color: white;
+
+  min-width: 25px;
+  max-width: 40px;
+  height: 25px;
+
+  font-size: 12px;
+  right: 28px;
+}
+
+.tble-img {
+  height: 150px;
+  width: 150px;
 }
