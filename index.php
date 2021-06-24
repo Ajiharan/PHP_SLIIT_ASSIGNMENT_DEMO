@@ -118,7 +118,7 @@ if(isset($_SESSION['uid'])){
 				 if(d==200){
 				   $("#log_error1").text("");     
 				   window.location.replace("./home.php");
-					alert('successfully Login');
+					//alert('successfully Login');
 				 }else{
 				 $("#log_error1").text("Invalid login");
 				   document.querySelector("#frm").reset();
