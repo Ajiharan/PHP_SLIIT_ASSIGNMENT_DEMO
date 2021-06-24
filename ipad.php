@@ -59,29 +59,29 @@
       </div>
       <div class="column">
         <div class="card">
-          <img src="https://firebasestorage.googleapis.com/v0/b/ctse-assignment-250c4.appspot.com/o/ipad%2F12.9prosilver2t.png?alt=media&token=593b9a34-e8d1-4544-b785-684509a7b879" alt="ring" style="width:100%">
-          <h1>iPad Pro 12.9inch</h1>
+          <img id='img-22' src="https://firebasestorage.googleapis.com/v0/b/ctse-assignment-250c4.appspot.com/o/ipad%2F12.9prosilver2t.png?alt=media&token=593b9a34-e8d1-4544-b785-684509a7b879" alt="ring" style="width:100%">
+          <h1 id='name-22'>iPad Pro 12.9inch</h1>
           <h2>Silver 2TB</h2>
-          <p class="price">$2199.00</p>
-          <p><button>Add to Cart</button></p>
+          <p class="price" id='pr-22'>$2199.00</p>
+          <p><button onclick="addCart(22)">Add to Cart</button></p>
         </div>
       </div>
       <div class="column">
         <div class="card">
-          <img src="https://firebasestorage.googleapis.com/v0/b/ctse-assignment-250c4.appspot.com/o/ipad%2F12.9prosilver2t.png?alt=media&token=593b9a34-e8d1-4544-b785-684509a7b879" alt="ring" style="width:100%">
-          <h1>iPad Pro 12.9inch</h1>
+          <img id='img-23' src="https://firebasestorage.googleapis.com/v0/b/ctse-assignment-250c4.appspot.com/o/ipad%2F12.9prosilver2t.png?alt=media&token=593b9a34-e8d1-4544-b785-684509a7b879" alt="ring" style="width:100%">
+          <h1 id='name-23'>iPad Pro 12.9inch</h1>
           <h2>Graphite 1TB</h2>
-          <p class="price">$1799.00</p>
-          <p><button>Add to Cart</button></p>
+          <p class="price" id='pr-23'>$1799.00</p>
+          <p><button onclick="addCart(23)">Add to Cart</button></p>
         </div>
       </div>
       <div class="column">
         <div class="card">
-          <img src="https://firebasestorage.googleapis.com/v0/b/ctse-assignment-250c4.appspot.com/o/ipad%2F11prosilver512.png?alt=media&token=349c3558-56aa-4093-988d-7205ecf61132" alt="ring" style="width:100%">
-          <h1>iPad Pro 12.9inch</h1>
+          <img id='img-24' src="https://firebasestorage.googleapis.com/v0/b/ctse-assignment-250c4.appspot.com/o/ipad%2F11prosilver512.png?alt=media&token=349c3558-56aa-4093-988d-7205ecf61132" alt="ring" style="width:100%">
+          <h1 id='name-24'>iPad Pro 12.9inch</h1>
           <h2>Silver 1TB</h2>
-          <p class="price">$1799.00</p>
-          <p><button>Add to Cart</button></p>
+          <p class="price" id='pr-24'>$1799.00</p>
+          <p><button onclick="addCart(24)">Add to Cart</button></p>
         </div>
       </div>
       <div class="column">

@@ -111,7 +111,7 @@
                 success:function(d){
                     getCount();
                     getData();
-                    swal("Poof! Your data has been deleted!", {icon: "success",});                       
+                                    
                 }
             });
      }

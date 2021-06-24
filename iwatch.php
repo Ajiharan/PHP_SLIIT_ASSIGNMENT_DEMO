@@ -60,38 +60,38 @@
       </div>
       <div class="column">
         <div class="card">
-          <img src="https://firebasestorage.googleapis.com/v0/b/ctse-assignment-250c4.appspot.com/o/iwatch%2F6green.png?alt=media&token=d16cab54-00be-4f61-b6e2-226e6e37ca72" alt="ring" style="width:100%">
-          <h1>Apple Watch Series 6</h1>
+          <img id='img-41' src="https://firebasestorage.googleapis.com/v0/b/ctse-assignment-250c4.appspot.com/o/iwatch%2F6green.png?alt=media&token=d16cab54-00be-4f61-b6e2-226e6e37ca72" alt="ring" style="width:100%">
+          <h1 id='name-41'>Apple Watch Series 6</h1>
           <h2>Pistachio</h2>
-          <p class="price">$449.00</p>
-          <p><button>Add to Cart</button></p>
+          <p class="price" id='pr-41'>$449.00</p>
+          <p><button onclick="addCart(41)">Add to Cart</button></p>
         </div>
       </div>
       <div class="column">
         <div class="card">
-          <img src="https://firebasestorage.googleapis.com/v0/b/ctse-assignment-250c4.appspot.com/o/iwatch%2F3black.png?alt=media&token=ab58a963-b993-465f-8223-7941142175b3" alt="ring" style="width:100%">
-          <h1>Apple Watch Series 6</h1>
+          <img id='img-42' src="https://firebasestorage.googleapis.com/v0/b/ctse-assignment-250c4.appspot.com/o/iwatch%2F3black.png?alt=media&token=ab58a963-b993-465f-8223-7941142175b3" alt="ring" style="width:100%">
+          <h1 id='name-42'>Apple Watch Series 6</h1>
           <h2>Black</h2>
-          <p class="price">$449.00</p>
-          <p><button>Add to Cart</button></p>
+          <p class="price" id='pr-42'>$449.00</p>
+          <p><button onclick="addCart(42)">Add to Cart</button></p>
         </div>
       </div>
       <div class="column">
         <div class="card">
-          <img src="https://firebasestorage.googleapis.com/v0/b/ctse-assignment-250c4.appspot.com/o/iwatch%2F6pride.png?alt=media&token=cde764ac-8659-40ef-9997-afcba1882f95" alt="ring" style="width:100%">
-          <h1>Apple Watch Series 6</h1>
+          <img id='img-43' src="https://firebasestorage.googleapis.com/v0/b/ctse-assignment-250c4.appspot.com/o/iwatch%2F6pride.png?alt=media&token=cde764ac-8659-40ef-9997-afcba1882f95" alt="ring" style="width:100%">
+          <h1 id='name-43'>Apple Watch Series 6</h1>
           <h2>Pride Edition</h2>
-          <p class="price">$449.00</p>
-          <p><button>Add to Cart</button></p>
+          <p class="price" id='pr-43'>$449.00</p>
+          <p><button onclick="addCart(43)">Add to Cart</button></p>
         </div>
       </div>
       <div class="column">
         <div class="card">
-          <img src="https://firebasestorage.googleapis.com/v0/b/ctse-assignment-250c4.appspot.com/o/iwatch%2F6pink.png?alt=media&token=7e37d972-53b0-437e-9c5a-6fbfb02ff714" alt="ring" style="width:100%">
-          <h1>Apple Watch Series 6</h1>
+          <img id='img-44' src="https://firebasestorage.googleapis.com/v0/b/ctse-assignment-250c4.appspot.com/o/iwatch%2F6pink.png?alt=media&token=7e37d972-53b0-437e-9c5a-6fbfb02ff714" alt="ring" style="width:100%">
+          <h1 id='name-44'>Apple Watch Series 6</h1>
           <h2>Pink Punch</h2>
-          <p class="price">$449.00</p>
-          <p><button>Add to Cart</button></p>
+          <p class="price" id='pr-44'>$449.00</p>
+          <p><button onclick="addCart(44)">Add to Cart</button></p>
         </div>
       </div>
     </div>

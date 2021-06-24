@@ -60,38 +60,38 @@
       </div>
       <div class="column">
         <div class="card">
-          <img src="https://firebasestorage.googleapis.com/v0/b/ctse-assignment-250c4.appspot.com/o/mac%2Fmacgreen.png?alt=media&token=71ef8074-29e9-41dd-966a-d8ad30fe91e6" alt="ring" style="width:100%">
-          <h1>iMac 24-inch M1-Chip</h1>
+          <img id='img-71' src="https://firebasestorage.googleapis.com/v0/b/ctse-assignment-250c4.appspot.com/o/mac%2Fmacgreen.png?alt=media&token=71ef8074-29e9-41dd-966a-d8ad30fe91e6" alt="ring" style="width:100%">
+          <h1 id='name-71'>iMac 24-inch M1-Chip</h1>
           <h2>Green SSD-2TB</h2>
-          <p class="price">$2299.00</p>
-          <p><button>Add to Cart</button></p>
+          <p class="price" id='pr-71'>$2299.00</p>
+          <p><button onclick="addCart(71)">Add to Cart</button></p>
         </div>
       </div>
       <div class="column">
         <div class="card">
-          <img src="https://firebasestorage.googleapis.com/v0/b/ctse-assignment-250c4.appspot.com/o/mac%2Fmacpink.png?alt=media&token=03f4bb6a-88b6-4936-a36b-ed41dd2e6893" alt="ring" style="width:100%">
-          <h1>iMac 24-inch M1-Chip</h1>
+          <img id='img-72' src="https://firebasestorage.googleapis.com/v0/b/ctse-assignment-250c4.appspot.com/o/mac%2Fmacpink.png?alt=media&token=03f4bb6a-88b6-4936-a36b-ed41dd2e6893" alt="ring" style="width:100%">
+          <h1 id='name-72'>iMac 24-inch M1-Chip</h1>
           <h2>Pink SSD-2TB</h2>
-          <p class="price">$2299.00</p>
-          <p><button>Add to Cart</button></p>
+          <p class="price" id='pr-72'>$2299.00</p>
+          <p><button onclick="addCart(72)">Add to Cart</button></p>
         </div>
       </div>
       <div class="column">
         <div class="card">
-          <img src="https://firebasestorage.googleapis.com/v0/b/ctse-assignment-250c4.appspot.com/o/mac%2F16prosilver.png?alt=media&token=d9c1e71c-8661-479b-a870-d50e3aa3013a" alt="ring" style="width:100%">
-          <h1>iMac 24-inch M1-Chip</h1>
+          <img id='img-73' src="https://firebasestorage.googleapis.com/v0/b/ctse-assignment-250c4.appspot.com/o/mac%2F16prosilver.png?alt=media&token=d9c1e71c-8661-479b-a870-d50e3aa3013a" alt="ring" style="width:100%">
+          <h1 id='name-73'>iMac 24-inch M1-Chip</h1>
           <h2>Silver SSD-2TB</h2>
-          <p class="price">$2299.00</p>
-          <p><button>Add to Cart</button></p>
+          <p class="price" id='pr-73'>$2299.00</p>
+          <p><button onclick="addCart(73)">Add to Cart</button></p>
         </div>
       </div>
       <div class="column">
         <div class="card">
-          <img src="https://firebasestorage.googleapis.com/v0/b/ctse-assignment-250c4.appspot.com/o/mac%2Fmacyellow.png?alt=media&token=6d9d6ceb-dc21-42fa-af8b-f8e68b3926f3" alt="ring" style="width:100%">
-          <h1>iMac 24-inch M1-Chip</h1>
+          <img id='img-74' src="https://firebasestorage.googleapis.com/v0/b/ctse-assignment-250c4.appspot.com/o/mac%2Fmacyellow.png?alt=media&token=6d9d6ceb-dc21-42fa-af8b-f8e68b3926f3" alt="ring" style="width:100%">
+          <h1 id='name-74'>iMac 24-inch M1-Chip</h1>
           <h2>Yellow SSD-1TB</h2>
-          <p class="price">$1899.00</p>
-          <p><button>Add to Cart</button></p>
+          <p class="price" id='pr-74'>$1899.00</p>
+          <p><button onclick="addCart(74)">Add to Cart</button></p>
         </div>
       </div>
     </div>
