@@ -66,11 +66,16 @@ session_start();
       const name=document.querySelector('#name-'+id).firstChild.nodeValue;
       const imageUrl= document.querySelector('#img-'+id).src;
       const price=document.querySelector('#pr-'+id).firstChild.nodeValue;
+      let countValue=1;
+      if(document.querySelector('#selectValue-'+id)){
+        countValue =document.querySelector('#selectValue-'+id).value;
+      }
+      
      
       $.ajax({
 			   url:"./server/Cart.php",
 			   type:"post",
-			   data:{imageUrl:imageUrl,name:name,price:price.substring(1)},
+			   data:{imageUrl:imageUrl,name:name,price:price.substring(1),count:countValue},
 			   success:function(d){			    		  
 				//	alert(d);		
           getCount(); 		

@@ -56,6 +56,13 @@
           <h1 id='name-1'>iPhone12 ProMax</h1>
           <h2>Graphite 256GB</h2>
           <p id='pr-1' class="price">$1199.00</p>
+         <p>
+         <select id='selectValue-1' name='selectValue'>
+            <option value='1'>1</option>
+            <option value='2'>2</option>
+            <option value='3'>3</option>
+          </select>
+         </p>
           <p><button onclick="addCart(1)">Add to Cart</button></p>
         </div>
       </div>

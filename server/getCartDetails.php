@@ -27,11 +27,11 @@
     if($tot > 0){
         $cart=$res->fetchAll();
        foreach( $cart as $row){
-        $tot =$tot+floatval($row->price);
+        $tot =$tot+floatval($row->price)*$row->count;
         $result.= "<tr>
           
             <td><img src='".$row->url."' class='tble-img'/></td>
-            <td>".$row->name."</td>
+            <td>".$row->name."(".$row->count.")</td>
             <td>$".$row->price."</td>
             ";
             
